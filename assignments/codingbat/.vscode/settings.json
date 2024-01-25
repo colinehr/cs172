@@ -1,0 +1,13 @@
+{
+    "python.testing.pytestArgs": [
+        "tests", "-v", "--color=yes"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "ruff.enable": true,
+    "flake8.args": [
+        "--max-line-length=88",
+        "--ignore=E203"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
