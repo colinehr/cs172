@@ -13,14 +13,13 @@ header-includes: |
 About CS172
 ===========
 
-**Instructor**: Colin Ehr\
-**Email**: colinehr\@lclark.edu\
-**Office**: BoDine 310\
-**Drop-in Hours**: In my office 10-12 Tuesday, 2-4 Wednesday, 2-4
-Thursday. Will announce lab hours.\
-\
-**Teaching Assistant**: Maximum DeCorso\
-**TA Lab Hours**: TBD
+- **Instructor**: Colin Ehr
+- **Email**: colinehr@lclark.edu
+- **Office**: BoDine 310
+- **Drop-in Hours**: In my office 10-12 Tuesday, 2-4 Wednesday 2-4
+Thursday. Will announce lab hours.
+- **Teaching Assistant**: Maximum DeCorso
+- **TA Lab Hours**: 4:30-5:30pm Tuesdays, 3:30-4:30 Thursdays
 
 Course Description
 ==================
@@ -51,16 +50,13 @@ By the end of the course, students should be able to:
 
 1.  Read and write code in the Python programming language, observing
     stylistic conventions.
-
 2.  Design and implement object-oriented applications incorporating both
     new code and existing libraries.
-
 3.  Solve computational problems using recursion.
-
 4.  Use, implement, explain, and compare various data structures and
     algorithms. Data structures include stacks, queues, and lists.
-    Implementations include array-based and linked versions. Write unit
-    tests.
+    Implementations include array-based and linked versions.    
+5. Write unit tests.
 
 Grading
 =======
