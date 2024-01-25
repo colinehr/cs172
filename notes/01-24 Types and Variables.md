@@ -7,7 +7,7 @@ Every variable and value in Python (or any programming language) is stored in me
 ## Main built-in types in Python
 - `int` is used to represent integer values. If a number is of type `int`, it is an *exact* representation of the number. For example: `-2`, `7`, `65837`.
 - `float` is used to represent decimal values. (it stands for "floating point" because the decimal point can move around) Many real numbers cannot be represented exactly since you can only hold a finite number of decimal places in a machine. Therefore it's possible for there to be rounding errors.
-- `bool` has two possible values: `True` and `False`
+- `bool` has two possible values: `True` and `False`.
 - `str` represents sequences of characters. Note that unlike C there is no `char` type; everything is a string in Python.
 - `list` represents arrays in Python. There are many differences between C arrays and Python lists that we will get into.
 
