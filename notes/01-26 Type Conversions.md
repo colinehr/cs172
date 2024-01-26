@@ -22,3 +22,7 @@ Python will convert the number `3.14159` into the string `'3.14159'` before prin
 | `int`               |        |       |         |       |
 | `float`             |        |       |         |       |
 | `str`               |        |       |         |       |
+
+## Further reading
+- [Python Documentation &mdash; Built-in Types](https://docs.python.org/3/library/stdtypes.html)
+- [Pythonorama &mdash; Built-in Types](https://github.com/alainkaegi/pythonorama/blob/main/data_structures/built_in_types.md)
