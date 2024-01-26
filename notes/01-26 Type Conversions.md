@@ -20,7 +20,7 @@ Python will convert the number `3.14159` into the string `'3.14159'` before prin
 |--------------------:|--------|-------|---------|-------|
 | `bool`              |        |       |         |       |
 | `int`               |        |       |         |       |
-| `float`             |        |       |         |       |
+| `float`             |        | Cuts off the decimal part.      |         |       |
 | `str`               |        |       |         |       |
 
 ## Further reading
