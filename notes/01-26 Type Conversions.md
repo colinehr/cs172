@@ -16,12 +16,12 @@ Python will convert the number `3.14159` into the string `'3.14159'` before prin
 
 ## Table of type conversions
 
-| Source ↓ / Target → | `bool` | `int` | `float` | `str` |
-|--------------------:|--------|-------|---------|-------|
-| `bool`              |        |       |         |       |
-| `int`               |        |       |         |       |
-| `float`             |        | Cuts off the decimal part.      |         |       |
-| `str`               |        |       |         |       |
+| Target →<br>Source ↓ | `bool`                                                           | `int`                                                                                               | `float`                                                                                                  | `str`                                                            |
+|----------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| `bool`               |                                                                  | `True` becomes `1`, `False` becomes `0`                                                             | `True` becomes `1.0`, `False` becomes `0.0`                                                              | Turns it into its string representation<br>`str(True) == 'True'` |
+| `int`                | `0` becomes `False`, otherwise `True`<br>`bool(573) == True`     |                                                                                                     | Adds 0.0<br>`float(4) == 4.0`                                                                            | Turns it into its string representation<br>`str(5) == '5'`       |
+| `float`              | `0.0` becomes `False`, otherwise `True`<br>`bool(3.142) == True` | Cuts off ("truncates") the decimal part<br>`int(-2.718) == -2`                                      |                                                                                                          | Turns it into its string representation<br>`str(6.28) == '6.28'` |
+| `str`                | `''` becomes `False`, otherwise `True`<br>`bool("Hi!") == True`  | If the string "looks like" an integer, converts it, otherwise gives an Error<br>`int("312") == 312` | If the string "looks like" a decimal, converts it, otherwise gives an Error<br>`float("2.718") == 2.718` |                                                                  |
 
 ## Further reading
 - [Python Documentation &mdash; Built-in Types](https://docs.python.org/3/library/stdtypes.html)
