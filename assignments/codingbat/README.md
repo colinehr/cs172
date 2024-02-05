@@ -26,7 +26,7 @@ To complete a Codingbat assignment in VS Code, use Finder to copy this *entire f
 These exercises also come with prepared *tests* to see if your code functions the way it should. To run a test using VS Code, go to the "Testing" tab on the left-hand side (the one that looks like a test tube). Then find the appropriate `test` folder (for example, if you're working through `warmup1`, the folder will be called `test_warmup1`) and run the tests associated with the problem by hitting the "play" button next to it. If we wanted to test our solution to `ab_false`, we would run the `test_ab_false` series of tests. If a test passes, it will appear with a green checkmark; if one fails, it will appear with a red X. The output of the test will give helpful infomation about why our test failed, and can be useful to understand how to fix our code.
 
 If you are getting "test discovery failed" messages:
-- Double check that you have opened *this* folder in VS Code. The tests will *not* work if, for example, you copied the codingbat folder into a folder named `colin` and then open the `colin` folder.
+- Double check that you have opened *this* folder in VS Code. The tests will *not* work if, for example, you copied the codingbat folder into a folder named `colin` and then opened the `colin` folder.
 - Make sure pytest is installed by running the following command in any terminal:
 ```bash
 /usr/local/bin/python3 -m pip install pytest
