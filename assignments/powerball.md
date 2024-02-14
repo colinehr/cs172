@@ -35,6 +35,8 @@ Average earnings per draw: $0.88
 | 1               | yes             | $4           |
 | 0               | yes             | $4           |
 
+If a result occurs and isn't on this list, you win $0.
+
 ## Submission
 
 Upload your `powerball.py` file to the Google Classroom.
