@@ -88,15 +88,17 @@ def test_triangle(n: int, expected: int):
 @pytest.mark.parametrize(
     "n, expected",
     [
-        (0, 0),
+        (126, 9),
+        (49, 13),
+        (12, 3),
+        (10, 1),
         (1, 1),
-        (2, 3),
-        (3, 6),
-        (4, 10),
-        (5, 15),
-        (6, 21),
-        (7, 28),
-        (20, 210),
+        (0, 0),
+        (730, 10),
+        (1111, 4),
+        (11111, 5),
+        (10110, 3),
+        (235, 10),
     ],
 )
 def test_sum_digits(n: int, expected: int):
@@ -113,7 +115,7 @@ def test_sum_digits(n: int, expected: int):
         (77, 2),
         (7123, 1),
         (771237, 3),
-        (771737, 21),
+        (771737, 4),
         (47571, 2),
         (777777, 6),
         (773777, 5),
@@ -168,7 +170,7 @@ def test_count_x(string: str, expected: int):
     [
         ("xxhixx", 1),
         ("xhixhix", 2),
-        ("hixhi", 3),
+        ("hixhi", 2),
         ("hi", 1),
         ("h", 0),
         ("x", 0),
@@ -206,14 +208,14 @@ def test_change_xy(string: str, expected: str):
 @pytest.mark.parametrize(
     "string, expected",
     [
-        ("codex", "codey"),
-        ("xxhixx", "yyhiyy"),
-        ("xhixhix", "yhiyhiy"),
-        ("xhiy", "yhiy"),
-        ("xxx", "yyy"),
-        ("xyx", "yyy"),
+        ("codex", "code"),
+        ("xxhixx", "hi"),
+        ("xhixhix", "hihi"),
+        ("xhiy", "hiy"),
+        ("xxx", ""),
+        ("xyx", "y"),
         ("h", "h"),
-        ("x", "y"),
+        ("x", ""),
         ("y", "y"),
         ("", ""),
     ],
@@ -236,14 +238,20 @@ def test_no_x(string: str, expected: str):
     ],
 )
 def test_count_11(l: list[int], expected: str):
-    result = recursion.count_11(l, 0)
-    assert result == expected, fail_msg("count_11", expected, result, l, 0)
+    try:
+        result = recursion.count_11(l)
+        assert result == expected, fail_msg("count_11", expected, result, l)
+    except TypeError:
+        result = recursion.count_11(l, 0)
+        assert result == expected, fail_msg("count_11", expected, result, l, 0)
+    
 
 
 @pytest.mark.parametrize(
     "string, expected",
     [
         ("hello", "h*e*l*l*o"),
+        ("mash", "m*a*s*h"),
         ("abc", "a*b*c"),
         ("ab", "a*b"),
         ("a", "a"),
@@ -261,7 +269,6 @@ def test_all_star(string: str, expected: str):
         ("hello", "hel*lo"),
         ("xxyy", "x*xy*y"),
         ("aaaa", "a*a*a*a"),
-        ("mash", "m*a*s*h"),
         ("aaab", "a*a*ab"),
         ("aa", "a*a"),
         ("a", "a"),
@@ -337,8 +344,8 @@ def test_nest_paren(string: str, expected: bool):
         ("iiiijj", "i", 4),
         ("iiiijj", "ii", 2),
         ("iiiijj", "iii", 1),
-        ("iiiijj", "jj", 2),
-        ("iiiijj", "j", 1),
+        ("iiiijj", "jj", 1),
+        ("iiiijj", "j", 2),
         ("a", "abc", 0),
         ("", "foo", 0),
     ],
