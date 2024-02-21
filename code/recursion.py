@@ -16,4 +16,34 @@ def choose(n: int, k: int) -> int:
     return choose(n - 1, k - 1) + choose(n - 1, k)
 
 
-print(choose(4, 2))
+def str_length(string: str) -> int:
+    if string == "":
+        return 0
+    return 1 + str_length(string[:-1])
+
+
+def move1(source: str, destination: str):
+    print("Move from peg " + source + " to peg " + destination)
+
+
+def move2(source: str, destination: str, other: str):
+    move1(source, other)
+    move1(source, destination)
+    move1(other, destination)
+
+
+# write a function which gives the solution for the Tower of Hanoi puzzle
+# for 3 disks (using move1 and move2)
+def move3(source: str, destination: str, other: str):
+    move2(source, other, destination)
+    move1(source, destination)
+    move2(other, destination, source)
+
+
+# write a function which gives the solution for the Tower of Hanoi puzzle
+# with the number of disks given (you can use move1)
+def move(disks: int, source: str, destination: str, other: str):
+    pass
+
+
+move3("A", "C", "B")
