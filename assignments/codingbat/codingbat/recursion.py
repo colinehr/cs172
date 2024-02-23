@@ -8,9 +8,7 @@ def factorial(n: int) -> int:
 # compute the total number of ears across all the bunnies recursively (without loops or
 # multiplication).
 def bunny_ears(bunnies: int) -> int:
-    if bunnies == 0:
-        return 0
-    return 2 + bunny_ears(bunnies - 1)
+    pass
 
 
 # The fibonacci sequence is a famous bit of mathematics, and it happens to have a
@@ -20,9 +18,7 @@ def bunny_ears(bunnies: int) -> int:
 # fibonacci(n) method that returns the nth fibonacci number, with n=0 representing the
 # start of the sequence.
 def fibonacci(n: int) -> int:
-    if n == 0 or n == 1:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    pass
 
 
 # We have triangle made of blocks. The topmost row has 1 block, the next row down has 2
