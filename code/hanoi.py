@@ -1,5 +1,5 @@
 # Goal: give moves to solve the Tower of Hanoi puzzle for varying numbers of disks
-
+# Example: https://www.mathsisfun.com/games/towerofhanoi.html
 
 def move1(source: str, destination: str):
     print("Move from peg " + source + " to peg " + destination)

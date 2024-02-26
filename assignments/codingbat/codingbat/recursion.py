@@ -122,6 +122,3 @@ def str_count(string: str, sub: str) -> int:
 # substring which starts and ends with sub and return its length.
 def str_dist(string: str, sub: str) -> int:
     pass
-
-
-bunny_ears(5)
