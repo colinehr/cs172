@@ -12,3 +12,7 @@ Our first goal is to get a window that looks something like this: ![First goal](
 3. **Bonus.** Iterate through the `minefield` array and display the mines as circles as shown in the picture. (We will do this together on Wednesday, but you can try to do it first.)
 
 Try to make these happen in your own code by **Wednesday**. You do not need to turn it in, but we will keep working on it and I will assume the first two steps have been finished.
+
+## Day 2: Calculating Adjacency Data
+
+Our goal is to calculate the number of mines adjcent to each square (that is, how many mines are in the 9x9 square centered on it) and draw that information. It will look something like this: ![Second goal](mines2.png)

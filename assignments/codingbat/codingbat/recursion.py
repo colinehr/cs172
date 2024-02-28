@@ -74,7 +74,7 @@ def no_x(string: str) -> str:
 
 
 # Given an array of ints, compute recursively the number of times that the value 11
-# appears in the part of the array that begins at the given index. 
+# appears.
 def count_11(l: list[int]) -> int:
     pass
 
