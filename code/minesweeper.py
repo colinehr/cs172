@@ -1,6 +1,7 @@
 import graphics as g
 import random
 
+
 def init_minefield() -> list[list[str]]:
     # Create the minefield variable
     minefield = []
@@ -50,23 +51,32 @@ def init_window() -> g.GraphWin:
     return win
 
 
+def draw_square(minefield, row: int, col: int):
+    if minefield[row][col] == "*":
+        circle = g.Circle(g.Point(col + 0.5, row + 0.5), 0.25)
+        circle.setFill("black")
+        circle.draw(win)
+    else:
+        text = g.Text(g.Point(col + 0.5, row + 0.5), minefield[row][col])
+        text.draw(win)
+
+
+def reveal():
+    # reveals the part of the board from a user click (you write this)
+    pass
+
+
+# main code starts here
 minefield = init_minefield()
 win = init_window()
 
-# draw our mines
-i = 0
-while i < 8:
-    j = 0
-    while j < 8:
-        if minefield[i][j] == "*":
-            circle = g.Circle(g.Point(j + 0.5, i + 0.5), 0.25)
-            circle.setFill("black")
-            circle.draw(win)
-        else:
-            text = g.Text(g.Point(j + 0.5, i + 0.5), minefield[i][j])
-            text.draw(win)
-        j += 1
-    i += 1
+# wait for the user to click the mouse and then reveal the spot that they click
+while True:
+    click = win.getMouse()
+    x = int(click.getX())
+    y = int(click.getY())
+    print(minefield[y][x])
+    draw_square(minefield, y, x)
 
-click = win.getMouse()
+
 win.close()
