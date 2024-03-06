@@ -43,4 +43,12 @@ click = win.getMouse()
 x = click.getX()
 y = click.getY()
 ```
-8. If the square has no mines around it, reveal the contents of every square around it. If any of those squares have no mines around them, continue that process. (*Note: this is hard but you should try it!*)
+8. If the square has no mines around it, reveal the contents of every square around it. If any of those squares have no mines around them, continue that process.
+
+## Day 4: Game Over
+
+9. Write functions to determine if the game has been won or lost. If the game has been won (or lost), print a congratulatory (or sad) message to the terminal, and have the window close on the next user click.
+
+## What to Turn In
+
+Turn in your `minesweeper.py` file to the Google Classroom assignment.
