@@ -1,9 +1,5 @@
 # Project: Letter Distribution
 
-This is a pair programming project. Work with your assigned partner.
-Only one of you has to turn it in, but make sure you don\'t both think
-the other one was doing it.
-
 ## Overview
 
 Write a program to count the distribution of letters in a text file. The
