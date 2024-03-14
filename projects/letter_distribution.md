@@ -65,7 +65,7 @@ letters.find("z")   # returns 25
 You can save yourself a lot of math by adjusting the scale of the drawing window with:
 
 ```python 
-win.setCoords(-5, 27, -0.1, 1.1)
+win.setCoords(-5, -0.1, 27, 1.1)
 ```
 
 This way, you can give `'a'` an x coordinate of 0, `'b'` an x
