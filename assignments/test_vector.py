@@ -8,7 +8,7 @@ import pytest
 
 EPSILON = 0.0001
 
-def test_getters_and_setters():
+def test_getters():
     v = Vector(8.0, 5.0)
     assert v.x == 8.0
     assert v.y == 5.0
@@ -17,8 +17,15 @@ def test_getters_and_setters():
     assert v.x == -2.0
     assert v.y == 10.0
 
-def test_zero_argument_initializer():
-    assert str(Vector()) == '<0.0, 0.0>'
+def test_cant_set_x():
+    v = Vector(8.0, 5.0)
+    with pytest.raises(AttributeError) as _:
+        v.x = 2
+
+def test_cant_set_y():
+    v = Vector(8.0, 5.0)
+    with pytest.raises(AttributeError) as _:
+        v.y = 3
 
 def test_equal():
     assert Vector(1.0, 2.0) == Vector(1.0, 2.0)
