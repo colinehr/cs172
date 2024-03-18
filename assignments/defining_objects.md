@@ -10,7 +10,7 @@ Each class should be written in proper object-oriented style, including:
 
 - Instance variables and methods
 - One or more initializers
-- Getters and setters using `@property` and `<variable>.setter`
+- Getters using `@property`
 - `__str__` and `__eq__` methods
 - `__add__`, `__sub__`, and `__mul__` methods as required
 - Any other methods required by the tests (see below)

@@ -1,14 +1,27 @@
 """Unit tests for the Starship class."""
 
-__author__ = 'Peter Drake and Alain Kägi'
+__author__ = 'Peter Drake, Alain Kägi, and Colin Ehr'
+
 from vector import Vector
 from starship import Starship
 
+import pytest
+
 def test_initializer_and_getters():
     ship = Starship('Enterprise', Vector(5.0, 4.0))
-    assert ship.name() == 'Enterprise'
+    assert ship.name == 'Enterprise'
     assert str(ship.position) == '<5.0, 4.0>'
     assert str(ship.velocity) == '<0.0, 0.0>'
+
+def test_cant_set_variables():
+    ship = Starship('Enterprise', Vector(5.0, 4.0))
+    # trying to set v.x should result in an error
+    with pytest.raises(AttributeError) as _:
+        ship.name = 'Red Dwarf'
+    with pytest.raises(AttributeError) as _:
+        ship.position = Vector(1.0, 2.0)
+    with pytest.raises(AttributeError) as _:
+        ship.velocity = Vector(-2.0, 4.0)
 
 def test_str():
     ship = Starship('Millenium Falcon', Vector(3.0, 2.0))

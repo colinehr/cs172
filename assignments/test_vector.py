@@ -1,6 +1,6 @@
 """Unit tests for the Vector class."""
 
-__author__ = 'Peter Drake and Alain Kägi'
+__author__ = 'Peter Drake, Alain Kägi, and Colin Ehr'
 
 from vector import Vector
 
@@ -12,10 +12,6 @@ def test_getters():
     v = Vector(8.0, 5.0)
     assert v.x == 8.0
     assert v.y == 5.0
-    v.x = -2.0
-    v.y = 10.0
-    assert v.x == -2.0
-    assert v.y == 10.0
 
 def test_cant_set_x():
     v = Vector(8.0, 5.0)
@@ -53,7 +49,7 @@ def test_subtract():
 def test_dot_product():
     a = Vector(1.0, 2.0)
     b = Vector(4.0, 6.0)
-    assert str(a.dot(b)) == 16.0
+    assert a.dot(b) == 16.0
 
 def test_scalar_product():
     a = Vector(1.0, 2.0)
