@@ -19,11 +19,13 @@ def test_getters():
 
 def test_cant_set_x():
     v = Vector(8.0, 5.0)
+    # trying to set v.x should result in an error
     with pytest.raises(AttributeError) as _:
         v.x = 2
 
 def test_cant_set_y():
     v = Vector(8.0, 5.0)
+    # trying to set v.y should result in an error
     with pytest.raises(AttributeError) as _:
         v.y = 3
 
@@ -51,7 +53,7 @@ def test_subtract():
 def test_dot_product():
     a = Vector(1.0, 2.0)
     b = Vector(4.0, 6.0)
-    assert str(a * b) == 16.0
+    assert str(a.dot(b)) == 16.0
 
 def test_scalar_product():
     a = Vector(1.0, 2.0)
