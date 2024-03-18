@@ -13,15 +13,23 @@ def test_initializer_and_getters():
     assert str(ship.position) == '<5.0, 4.0>'
     assert str(ship.velocity) == '<0.0, 0.0>'
 
-def test_cant_set_variables():
+def test_cant_set_name():
     ship = Starship('Enterprise', Vector(5.0, 4.0))
-    # trying to set v.x should result in an error
+    # trying to set ship.name should give an error
     with pytest.raises(AttributeError) as _:
         ship.name = 'Red Dwarf'
+
+def test_cant_set_position():
+    ship = Starship('Enterprise', Vector(5.0, 4.0))
+    # trying to set ship.position should give an error
     with pytest.raises(AttributeError) as _:
         ship.position = Vector(1.0, 2.0)
+
+def test_cant_set_position():
+    ship = Starship('Enterprise', Vector(5.0, 4.0))
+    # trying to set ship.velocity should give an error
     with pytest.raises(AttributeError) as _:
-        ship.velocity = Vector(-2.0, 4.0)
+        ship.velocity = Vector(-1.0, 4.0)
 
 def test_str():
     ship = Starship('Millenium Falcon', Vector(3.0, 2.0))
