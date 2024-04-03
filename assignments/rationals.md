@@ -42,6 +42,8 @@ def __add__(self, other) -> "Rational":
 
 The `math` module has a function `math.gcd()` which finds the greatest common divisor of two integers. This can be helpful when implementing your class.
 
+Think hard about the possible corner cases. For example, when should two rational numbers be equal?
+
 ## How to Turn In
 
 Turn in your code `rational.py` and your test file `test_rational.py`. Make sure to sign your work!
