@@ -32,15 +32,10 @@ prerequisite.
 
 In terms of the ACM's Computer Science Curriculum 2013, this course
 addresses the following knowledge areas:
-
 -   Algorithms and Complexity (AL)
-
 -   Discrete Structures (DS)
-
 -   Programming Languages (PL)
-
 -   Software Development Fundamentals (SDF)
-
 -   Software Engineering (SE)
 
 Course Goals
@@ -65,7 +60,7 @@ Your course grade is assigned using the table below. Each row describes the *min
 
 |   | **Codingbats (2)**    | **Programming Practices (7)**    | **Projects (4)**                 |
 |---|-----------------------|----------------------------------|----------------------------------|
-| A | 2                     | 7 M's (including at least 4 E's) | 3 M's (including at least 2 E's) |
+| A | 2                     | 6 M's (including at least 4 E's) | 3 M's (including at least 2 E's) |
 | B | 2                     | 5 M's                            | 2 M's                            |
 | C | 1                     | 3 M's                            | 1 M                              |
 | D | 1                     | 2 M                              | 0 M                              |
@@ -127,12 +122,6 @@ is also available. One-on-one peer tutors are available for a range of
 courses across departments. [Request to be connected with a SAAB
 tutor.](https://college.lclark.edu/academics/support/advising/saab-tutoring/request-a-tutor/)
 
-My office hours are from 1-3pm on Wednesdays, and 1:30-3:30 on
-Thursdays. I'm also available for appointments on other days.
-
-Natalie's office hours are from 5-6pm on Tuesdays and Thursdays in Olin
-309.
-
 Mental Health Resources
 =======================
 
@@ -142,10 +131,8 @@ available to you:
 
 -   The college's Office of Student Accessibility (OSA) offers a wide
     range of supports, including accommodations and counseling.
-
 -   You are more than welcome to chat with me about any needs you may
     have, if you are comfortable. I hope you find me to be a flexible
     and understanding member of this community.
-
 -   If you are concerned about someone, you may want to contact the
     college's Welfare Intervention Network (WIN) or Campus Safety.
