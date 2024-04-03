@@ -63,20 +63,19 @@ Grading
 
 Your course grade is assigned using the table below. Each row describes the *minimum* number of Successful results (indicated by points in Google Classroom) needed to achieve the corresponding grade. To earn a grade, you must complete **all** the requirements listed in the row for that grade. The numbers in parentheses are the total number of that assignment that has been planned, but may change accordingly throughout the semester. 
 
-|   | **Class Preps (~36)** | **Programming Practice (8)**     | **Miniprojects (5)**             |
+|   | **Codingbats (2)**    | **Programming Practices (7)**    | **Projects (4)**                 |
 |---|-----------------------|----------------------------------|----------------------------------|
-| A | 30                    | 6 M's (including at least 4 E's) | 4 M's (including at least 2 E's) |
-| B | 25                    | 5 M's                            | 3 M's                            |
-| C | 20                    | 4 M's                            | 2 M's                            |
-| D | 10                    | 2 M's                            | 1 M's                            |
+| A | 2                     | 7 M's (including at least 4 E's) | 3 M's (including at least 2 E's) |
+| B | 2                     | 5 M's                            | 2 M's                            |
+| C | 1                     | 3 M's                            | 1 M                              |
+| D | 1                     | 2 M                              | 0 M                              |
 
 If the requirements for a D are not met, a grade of F will be given.
 
 Once your grade is calculated as above, a plus or minus grade will be given as follows:
-
-- A **plus (+)** is given if you earn an 85% or higher on the final exam.
-- A **minus (-)** is given if you earn a 50% or lower on the final exam, *or* you satisfy all the requirements for a grade except the Class Preps.
-
+- A **plus (+)** is given if you earn an 85% or higher on the final exam; *or* you earn 50% or higher and have gotten an M or above on at least one additional project over the requirement for your current grade.
+- A **minus (-)** is given if you earn a 50% or lower on the final exam.
+Note that there is no D- grade; in that case an F will be given.
 
 
 Expectations
