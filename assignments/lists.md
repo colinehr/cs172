@@ -4,7 +4,7 @@ This assignment is meant to give you practice implementing some standard data st
 
 ## Description
 
-You will define two classes, `ArrayList` and `LinkedList`. Each of these must implement the methods listed below. Your classes must pass the tests in the corresponding test classes `test_array_list.py` and `test_linked_list.py`, and must implement the abstract base class `AbstractList` found in `abstract_list.py`. *(Note: links to files will be added tomorrow morning when I get on campus.)*
+You will define two classes, `ArrayList` and `LinkedList`. Each of these must implement the methods listed below. Your classes must pass the tests in the corresponding test classes [`test_array_list.py`](./test_array_list.py) and [`test_linked_list.py`](./test_linked_list.py), and must implement the abstract base class `AbstractList` found in [`abstract_list.py`](./abstract_list.py).
 
 | **Method**                                    | **Description**                                                                                                                                                                                                                             |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ There is no `main` program to run here. You are simply implementing data structu
 
 - You may reuse any part of the `Stack` or `Queue` code that we have written in class or that appears on Pythonorama (see [Stacks](https://github.com/alainkaegi/pythonorama/blob/main/data_structures/stacks.md) and [Queues](https://github.com/alainkaegi/pythonorama/blob/main/data_structures/queues.md)). But otherwise you are meant to write these classes yourself, not copy them from the Internet or delegate the work to an existing library.
 
-- For the `ArrayList` implementation, you are encouraged to use the `Array` class from the [`array_cs2.py`](https://github.com/colinehr/cs172/blob/main/code/array_cs2.py) file linked here on my GitHub and import it with
+- For the `ArrayList` implementation, you are encouraged to use the `Array` class from the [`array_cs2.py`](./array_cs2.py) file linked here on my GitHub and import it with
 ```python
 from array_cs2 import Array
 ```
