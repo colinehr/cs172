@@ -1,4 +1,4 @@
-# Project: Lines of Action
+# Project: Connect Four
 This is a programming project. You may work with another person, but you should submit your own code. Please specify any additional people you work with upon submission.
 
 ## Overview
