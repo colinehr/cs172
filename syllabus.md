@@ -58,12 +58,12 @@ Grading
 
 Your course grade is assigned using the table below. Each row describes the *minimum* number of Successful results (indicated by points in Google Classroom) needed to achieve the corresponding grade. To earn a grade, you must complete **all** the requirements listed in the row for that grade. The numbers in parentheses are the total number of that assignment that has been planned, but may change accordingly throughout the semester. 
 
-|   | **Codingbats (2)**    | **Programming Practices (7)**    | **Projects (4)**                 |
+|   | **Codingbats (2)**    | **Programming Practices (6)**    | **Projects (4)**                 |
 |---|-----------------------|----------------------------------|----------------------------------|
-| A | 2                     | 6 M's (including at least 4 E's) | 3 M's (including at least 2 E's) |
-| B | 2                     | 5 M's                            | 2 M's                            |
-| C | 1                     | 3 M's                            | 1 M                              |
-| D | 1                     | 2 M                              | 0 M                              |
+| A | 2                     | 5 M's (including at least 3 E's) | 3 M's (including at least 2 E's) |
+| B | 2                     | 4 M's                            | 2 M's                            |
+| C | 1                     | 2 M's                            | 1 M                              |
+| D | 1                     | 1 M                              | 0 M                              |
 
 If the requirements for a D are not met, a grade of F will be given.
 
